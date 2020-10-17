@@ -2,20 +2,20 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>livesplit</id>
-    <version>1.7.6</version>
+    <version>1.8.15</version>
     <title>LiveSplit</title>
     <authors>CryZe and wooferzfg1</authors>
-    <owners>geo_trader</owners>
+    <owners>davvolun</owners>
     <projectUrl>http://livesplit.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/LiveSplit/LiveSplit/a8ff53a35c0ec5a43aeb7055b7ee77afec87c3c7/LiveSplit/Resources/Icon.png</iconUrl>
     <projectSourceUrl>https://github.com/LiveSplit/LiveSplit</projectSourceUrl>
     <docsUrl>http://livesplit.org/introduction/</docsUrl>
-    <copyright>Copyright (c) 2013-2017 Christopher Serr and Sergey Papushin</copyright>
+    <copyright>Copyright (c) 2013-2020 Christopher Serr and Sergey Papushin</copyright>
     <licenseUrl>https://github.com/LiveSplit/LiveSplit/blob/master/LICENSE</licenseUrl>
     <tags>speedruns timer split game</tags>
-    <releaseNotes>https://github.com/LiveSplit/LiveSplit/releases/tag/1.7.4</releaseNotes>
+    <releaseNotes>https://github.com/LiveSplit/LiveSplit/releases/tag/1.8.15</releaseNotes>
     <summary>LiveSplit is a timer program for speedrunners that is both easy to use and full of features.</summary>
-    <packageSourceUrl>https://github.com/geotrader/chocolateyPackages/tree/master/liveSplit</packageSourceUrl>
+    <packageSourceUrl>https://github.com/davvolun/chocolateyPackages/tree/master/liveSplit</packageSourceUrl>
     <description>LiveSplit is a timer program for speedrunners that is both easy to use and full of features.</description>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
