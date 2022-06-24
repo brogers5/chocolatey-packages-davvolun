@@ -16,8 +16,6 @@ $ignoreFiles = @(
   'LiveSplit.Register.exe.ignore'
 )
 
-$zipName = [System.IO.Path]::GetFileNameWithoutExtension($packageArgs.url)
-
 foreach($ignoreFile in $ignoreFiles) {
   New-Item "${toolsPath}\${ignoreFile}" -type file -force | Out-Null
 }
