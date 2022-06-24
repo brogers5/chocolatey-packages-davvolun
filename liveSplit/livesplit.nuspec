@@ -7,7 +7,7 @@
     <authors>CryZe and wooferzfg1</authors>
     <owners>davvolun</owners>
     <projectUrl>http://livesplit.org/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/LiveSplit/LiveSplit/a8ff53a35c0ec5a43aeb7055b7ee77afec87c3c7/LiveSplit/Resources/Icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/LiveSplit/LiveSplit@a8ff53a35c0ec5a43aeb7055b7ee77afec87c3c7/LiveSplit/Resources/Icon.png</iconUrl>
     <projectSourceUrl>https://github.com/LiveSplit/LiveSplit</projectSourceUrl>
     <docsUrl>http://livesplit.org/introduction/</docsUrl>
     <copyright>Copyright (c) 2013-2020 Christopher Serr and Sergey Papushin</copyright>
