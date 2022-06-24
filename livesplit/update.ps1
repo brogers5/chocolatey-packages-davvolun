@@ -24,6 +24,8 @@ function global:au_AfterUpdate ($Package)  {
 function global:au_SearchReplace {
     @{
         "$($Latest.PackageName).nuspec" = @{
+            "<licenseUrl>[^<]*</licenseUrl>" = "<licenseUrl>https://github.com/$($softwareRepo)/blob/$($Latest.Version)/LICENSE</licenseUrl>"
+            "<projectSourceUrl>[^<]*</projectSourceUrl>" = "<projectSourceUrl>https://github.com/$($softwareRepo)/tree/$($Latest.Version)</projectSourceUrl>"
             "<releaseNotes>[^<]*</releaseNotes>" = "<releaseNotes>https://github.com/$($softwareRepo)/releases/tag/$($Latest.Version)</releaseNotes>"
         }
         'tools\chocolateyinstall.ps1' = @{
