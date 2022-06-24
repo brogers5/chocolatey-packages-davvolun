@@ -22,6 +22,10 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="tools\**" target="tools" />
+    <file src="tools\chocolateyBeforeModify.ps1" target="tools" />
+    <file src="tools\chocolateyInstall.ps1" target="tools" />
+    <file src="tools\LiveSplit_*.zip" target="tools" />
+    <file src="tools\LICENSE.txt" target="tools" />
+    <file src="tools\VERIFICATION.txt" target="tools" />
   </files>
 </package>

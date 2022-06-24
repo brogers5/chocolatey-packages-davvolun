@@ -1,0 +1,23 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+The packaged ZIP archive is available for independent download via the Releases
+page on LiveSplit's GitHub repository. A download link for the packaged version
+is included at the following URL:
+https://github.com/LiveSplit/LiveSplit/releases/tag/1.8.15
+
+For convenience, this is a direct URL to the relevant asset:
+https://github.com/LiveSplit/LiveSplit/releases/download/1.8.15/LiveSplit_1.8.15.zip
+
+The following PowerShell command will print a calculated SHA512 hash:
+
+    (Get-FileHash LiveSplit_1.8.15.zip -Algorithm SHA512).Hash
+
+This command should be executed against an independently downloaded binary, as well
+as the copy distributed with the package. Both hash values should be identical. A
+matching hash value should confirm that no corruption or tampering has occurred
+during this package's generation process.
+
+For reference, the following SHA512 hash was calculated during the package's automated creation:
+51F3CB1D32BD57FB4B469F491EE2EFD9BD6BCC5DC836F76606483C124928E15F40513C0C709A9D45153266AD85247E0AB586523342D45397A29A5F455DBFD4CB
