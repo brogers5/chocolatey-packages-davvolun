@@ -19,6 +19,7 @@
     <description>LiveSplit is a timer program for speedrunners that is both easy to use and full of features.</description>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
+      <dependency id="dotnetfx" version="4.6.1.0" />
     </dependencies>
   </metadata>
   <files>
